@@ -1,0 +1,23 @@
+/* body {
+    height: 100%;
+    width: 100%;
+} */
+
+#title {
+    margin-top: 2%;
+}
+
+h2 {
+    font-weight: bold !important;
+}
+
+#prototypes{
+    width: 60% !important; 
+}
+
+img{
+    transition: transform .2s;
+}
+.prototype:hover{
+    transform: scale(1.7) !important;
+}

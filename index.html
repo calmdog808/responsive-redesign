@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Seven Stars Bakery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
+
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+    <link rel="alternate" type="application/rss+xml" title="Seven Stars Bakery &raquo; Feed" href="https://sevenstarsbakery.com/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Seven Stars Bakery &raquo; Comments Feed" href="https://sevenstarsbakery.com/comments/feed/" />
+
+
+
+</head>
+
+<body class="home">
+        <!-- nav bar adapted from https://getbootstrap.com/docs/4.0/components/navbar/ -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" width="80px" height="60px" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto justify-content-center w-100">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style = "color:#FFFEF0; font-weight: bold">
+                    About Us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Our Story</a>
+                        <a class="dropdown-item" href="#">Baking Process</a>
+                        <a class="dropdown-item" href="#">Community Giving</a>
+                        <a class="dropdown-item" href="#">Join Our Team</a>
+                        <a class="dropdown-item" href="#">Contact Us</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style = "color:#FFFEF0; font-weight: bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Our Menu
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Breads</a>
+                        <a class="dropdown-item" href="#">Pastries</a>
+                        <a class="dropdown-item" href="#">Sandwiches, Salads, & Snacks</a>
+                        <a class="dropdown-item" href="#">Crackers</a>
+                        <a class="dropdown-item" href="#">Coffee</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style = "color:#FFFEF0; font-weight: bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Locations
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Providence, Point St</a>
+                        <a class="dropdown-item" href="#">Providence, East Side</a>
+                        <a class="dropdown-item" href="#">Providence, West Side</a>
+                        <a class="dropdown-item" href="#">Rumford</a>
+                        <a class="dropdown-item" href="#">Cranston</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" style = "color:#FFFEF0; font-weight: bold" href="#">Loyalty <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style = "color:#FFFEF0; font-weight: bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Catering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Explore Options</a>
+                        <a class="dropdown-item" href="#">Order</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style = "color:#FFFEF0; font-weight: bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Gift Cards
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Purchase</a>
+                        <a class="dropdown-item" href="#">Check Balance</a>
+                    </div>
+                </li>
+                <button class="btn btn-outline-primary nav-item rounded-pill shadow" type="button" style="font-weight: bold; background-color: #213765; color:#FFFEF0">
+                    ORDER NOW
+                </button>
+                </ul>
+            </div>
+        </div>
+        </nav>
+<!-- #masthead -->
+
+<!-- bg-image d-flex justify-content-center align-items-center -->
+        <!-- title -->
+        <div class="bg-image title d-flex flex-column justify-content-center text-center">
+            <!-- <div class="container-fluid justify-content-center"> -->
+            <div class = "container-fluid text-vcenter">
+                <h1 class="text-uppercase shadow" style="font-weight:900; font-size: 6vw;">Handcrafted Bread, Pastries, and Coffee</h1>
+                <button class="btn btn-outline-primary nav-item rounded-pill shadow" type="button" style="font-weight: bold; background-color: #213765; color:#FFFEF0; font-size: 1vw;">
+                    ORDER NOW
+                </button>
+            </div>
+        <!-- </div> -->
+        </div>
+
+
+        <!-- info adapted from jeff's bootstrap site video -->
+        <div id="infopanes" class="pad-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="panel panel-default rounded-lg shadow">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <img id="psl" src="psl.jpeg" class="img-fluid rounded mx-auto d-block panel-img shadow">
+                                    <h3 class="panel-title">What's New</h3>
+                                    <p class="panel-cap">Pumpkin Spice is back! Stop by any of our locations today to get your fall drink fix.</p>
+                                    <div class="panel-button">
+                                        <a class="btn btn-primary btn-sm shadow">Explore Menu</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="panel panel-default rounded-lg shadow">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <img  src="baking.jpeg" class="img-fluid rounded mx-auto d-block panel-img shadow">
+                                    <h3 class="panel-title">Baking Process</h3>
+                                    <p class="panel-cap">We bake bread & pastry from scratch with quality ingredients and never any preservatives!</p>
+                                    <div class="panel-button">
+                                        <a class="btn btn-primary btn-sm shadow">Learn  More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="panel panel-default rounded-lg shadow">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <img src="catering.jpeg" class="img-fluid rounded mx-auto d-block panel-img shadow">
+                                    <h3 class="panel-title">We Cater</h3> 
+                                    <p class="panel-cap">Looking to feed a larger group? We got you covered with our extensive catering options.</p>
+                                    <div class="panel-button">
+                                        <a class="btn btn-primary btn-sm shadow">View Options</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- locations -->
+        <div id="location-section" class="d-flex flex-column justify-content-center align-items-center">
+            
+            <div class = "container-fluid">
+                <h2 class="locations-section__title">VISIT US</h2>
+                <div class="image rounded">
+                    <img id="map" src="map1.png" class="img-fluid rounded">
+                </div>
+                <div class="row">
+                    <div class = "col-12 col-md-4 location ">
+                        <div class = "row">
+                            <div class="col-sm-auto">
+                                <i class="bi-geo-alt-fill location-icon"></i>
+                            </div>
+                            <div class="col">
+                                <h5 class="location-name">
+                                    <a href="https://sevenstarsbakery.com/location/providence-point-street/" style="color:#FFFEF0">
+                                        Providence, Point Street
+                                    </a>
+                                </h5>
+                                <p style="color:#FFFEF0">103 Point St, Providence, RI
+                                    <br>
+                                    Mon-Sun: 6:30 am - 5:00 pm
+                                </p>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class = "col-12 col-md-4 location">
+                        <div class = "row">
+                            <div class="col-sm-auto">
+                                <i class="bi-geo-alt-fill location-icon"></i>
+                            </div>
+                            <div class="col">
+                                <h5 class="location-name">
+                                    <a style="color:#FFFEF0" href= "https://sevenstarsbakery.com/location/providence-east-side/">
+                                    Providence, East Side
+                                </a>
+                                </h5>
+                                <p style="color:#FFFEF0">820 Hope St, Providence, RI
+                                    <br>
+                                    Mon-Fri: 6:30 am - 6:00 pm
+                                    <br>
+                                    Sat-Sun: 7:00 am - 6:00 pm
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-12 col-md-4 location">
+                        <div class = "row">
+                            <div class="col-sm-auto">
+                                <i class="bi-geo-alt-fill location-icon"></i>
+                            </div>
+                            <div class="col">
+                                <h5 class="location-name">
+                                    <a style="color:#FFFEF0" href="https://sevenstarsbakery.com/location/providence-west-side/">
+                                        Providence, West Side
+                                    </a>
+                                </h5>
+                                <p style="color:#FFFEF0">342 Broadway, Providence, RI
+                                    <br>
+                                    Mon-Fri: 6:30 am - 6:00 pm
+                                    <br>
+                                    Sat-Sun: 7:00 am - 6:00 pm
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100"></div>
+                <!-- </div> -->
+                <!-- <div class="row"> -->
+                    <div class = "col-12 col-md-4 location">
+                        <div class = "row">
+                            <div class="col-sm-auto">
+                                <i class="bi-geo-alt-fill location-icon"></i>
+                            </div>
+                            <div class="col">
+                                <h5 class="location-name">
+                                    <a style="color:#FFFEF0" href="https://sevenstarsbakery.com/location/rumford-center/">
+                                        Rumford
+                                    </a>
+                                </h5>
+                                <p style="color:#FFFEF0">20 Newman Ave, East Providence, RI
+                                    <br>
+                                    Mon-Sun: 7:00 am - 6:00 pm
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-12 col-md-4 location">
+                        <div class = "row">
+                            <div class="col-sm-auto">
+                                <i class="bi-geo-alt-fill location-icon"></i>
+                            </div>
+                            <div class="col">
+                                <h5 class="location-name">
+                                    <a style="color:#FFFEF0" href="https://sevenstarsbakery.com/location/cranston/">
+                                        Cranston
+                                    </a>
+                                </h5>
+                                <p style="color:#FFFEF0">1255 Reservoir Ave, Cranston, RI 
+                                    <br>
+                                    Mon-Sun: 7:00 am - 4:00 pm
+                                    <br>
+                                    Sat-Sun: 7:00 am - 6:00 pm
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class = "col">
+                        <h4 class="location-notes__title"><a href="https://sevenstarsbakery.com/hours-directions/" style="color:#FFFEF0; font-weight: bold;">
+                            Find us at our local market &amp; delivery partners!</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+           
+
+        <section class="">
+            <!-- Footer -->
+            <footer class="footer">
+              <!-- Grid container -->
+              <div class="container-fluid p-4">
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="col-12 col-sm-6">
+                    <h5  style="color:#213765; font-weight: bold;">Get In Touch</h5>
+                    <hr/>
+
+                    <p><a href="tel:4015212200" class="address-line" style="color:#213765">
+                        <i class="bi-telephone"></i>
+                        401.521.2200
+                        </a>
+                         (all locations)
+                    </p>
+                    <p>
+                        <a style="color:#213765" href="https://www.facebook.com/pages/Seven-Stars-Bakery/61495212716" target="_blank" class="address-line">
+                            <i class="bi-facebook"></i>
+                            @SevenStarsBakery
+                        </a>
+                    </p>
+                    <p>
+                        <a style="color:#213765" href="https://www.instagram.com/sevenstarsbakery/" target="_blank" class="address-line">
+                            <i class="bi-instagram"></i>
+                            @SevenStarsBakery
+                        </a>
+                    </p>
+                  </div>
+                  <!--Grid column-->
+          
+                  <!--Grid column-->
+                  <div class="col-12 col-sm-6">
+                    <h5 style="color:#213765;  font-weight: bold;">Locations</h5>
+                    <hr/>
+                    <div class="row">
+                        <div class="col" style="color:#213765; font-weight: bold;">
+                            Providence
+                            <ul class="list-unstyled mb-0" style="font-weight:400;">
+                                <li>
+                                    <a style="color:#213765" href="https://sevenstarsbakery.com/location/providence-point-street/">103 Point St</a><br />
+                                </li>
+                                <li>
+                                    <a style="color:#213765" href="https://sevenstarsbakery.com/location/providence-east-side/">820 Hope St</a><br />                                </li>
+                                <li>
+                                    <a style="color:#213765" href="https://sevenstarsbakery.com/location/providence-west-side/">342 Broadway</a><br />
+                                </li>
+                              </ul>
+                        </div>
+                        <div class="col" style="color:#213765;  font-weight: bold;">
+                            Rumford
+                            <ul class="list-unstyled mb-0" style="font-weight:400;">
+                                <li>
+                                    <a style="color:#213765" href="https://sevenstarsbakery.com/location/rumford-center/">20 Newman Ave</a><br />
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col" style="color:#213765;  font-weight: bold;">
+                            Cranston
+                            <ul class="list-unstyled mb-0" style="font-weight:400;">
+                                <li>
+                                    <a style="color:#213765" href="https://sevenstarsbakery.com/location/cranston/">1255 Reservoir Ave</a><br />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </div>
+              <!-- Grid container -->
+            </footer>
+            <!-- Footer -->
+          </section>
+           <!-- Scripts -->
+           <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+           <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+    

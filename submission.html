@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Responsive Redesign</title>
+        <!-- import CSS styles -->
+        <link rel="stylesheet" href="submission_style.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <meta name="description" content="assignment write up">
+    </head>
+
+    <body>
+        <!-- code adapted from jeff's bootstrap video -->
+        <div class="d-flex flex-column justify-content-center align-items-center" id = "title">
+            <h1 style="font-weight: bold;">Seven Stars Bakery Redesign</h1>
+            <p class = "text-secondary">Redesigning the website of my favorite Providence bakery &lt;3 </p>
+        </div>    
+        <div id="part 1" class="container-fluid justify-content-center align-items-center">
+            <div class="row align-items-center g-5" style="margin-left:8%;">
+                <div class="col">
+                    <h2 >Current Webpage</h2>
+                    <p class="text-secondary">I chose this website because I love Seven Stars&#x27s bread and pastries, but I am not in love with their website ://
+                        <br>
+                        <p>
+                            While examining the site, I found a few issues involving its usability, learnability, memorability, and accessibility (as detailed below).
+                            I used the WebAIM WAVE tool to help find accessibility issues, and I found one main issue worth noting, which was the very low contrast for the heading text. 
+                            The background image is quite saturated, so it is difficult to read the title when first opening the page. The tool was useful, but many of the warnings it picked up 
+                            did not seem to hinder accessibility to a great extent (such as noscript tags).
+                        </p>
+                    </p>
+                    <h4>Key Issues</h4>
+                    <ol>
+                        <li>There are no dropdown icons for the menu bar, making it hard to determine which categories have additional items (usability)</li>
+                        <li>There is no indication whether the top categories are linked (learnability)</li>
+                        <li>The navigation bar goes away when you scroll down the page (usability)</li>
+                        <li>Some panels in the second section don't have labels, so it is hard to determine what they link to (learnability)</li>
+                        <li>Sections with the panels, large image for baking process, and coffee info seem random and make it difficult to remember what is on the home page (memorability)</li>
+                        <li>Locations are refered to as bakeries and cafes, which could be confusing (learnability)</li>
+                        <li>There is no map to visualize where the locations are (usability)</li>
+                        <li>It is unclear whether the bottom links in the footer are clickable even though they are (learnability)</li>
+                        <li>Very low contrast for main heading (accessibility)</li>
+                    </ol>
+                </div>
+                <div class="col">
+                    <img src="original.jpeg" alt="original site" style="height: 50rem;">
+                </div>
+            </div>
+        </div>
+        <div class = "d-flex flex-column justify-content-center align-items-center" id = "part 2">
+            <h2>Visual Redesign</h2>
+            <p class = "text-secondary">Prototyping the redesigned site!
+                <br>
+                <br>
+                <br>
+            </p>
+            <h3>Lo-Fi Prototypes
+                <hr/>
+            </h3>
+            <div class="row justify-content-md-center" id="prototypes">
+                <div class="col">
+                    <h4>Desktop</h4>
+                    <img class="prototype" src="lofi-web.jpeg" alt="lofi web site" style="height: 30rem;">
+                </div>
+                <div class="col">
+                    <h4>Tablet</h4>
+                    <img class="prototype" src="lofi-tablet.jpeg" alt="lofi tablet site" style="height: 30rem;">
+                </div>
+                <div class="col">
+                    <h4>Phone</h4>
+                    <img class="prototype" src="lofi-phone.jpeg" alt="lofi phone site" style="height: 30rem;">
+                </div>
+            </div>
+            <br>
+            <p class = "text-secondary"> (hover images to enlarge)</p>
+            <br>
+            <h4>Changes Made</h4>
+            <ol>
+                <li>Drop down indicators added to show clearly which menu items can be expanded</li>
+                <li>Menu items will change on hover</li>
+                <li>Fixed navigation bar</li>
+                <li>All panels have labels added, and only relevant panels were kept</li>
+                <li>Simplified home screen by removing uneccessary sections</li>
+                <li>Changed section title to avoid ambiguity</li>
+                <li>Added a map! (wanted to make interactive, but its just an image placeholder for now)</li>
+                <li>Underlined links in footer to make them clearer</li>
+                <li>Changed and desaturated heading image to increase contrast</li>
+            </ol>
+            <br>
+            <br>
+            <br>
+            <h3>Style Guide
+                <hr/>
+            </h3>
+            <div class="d-flex justify-content-md-center" id="prototypes">
+                <img src="style-guide.png" alt="style guide" style="height: 40rem;">
+            </div>
+            <p style="text-align:center; margin-left:25%; margin-right:25%;">Using the lo-fi prototypes, I developed a style guide to make hi-fi prototypes of the sites on Figma. 
+                This details the colors as well as the text, button, and navigation bar styles to be used in the final site, including how different components react to being hovered
+                or clicked.
+            </p>
+            <br>
+            <br>
+            <br>
+            <h3>Hi-Fi Prototypes
+                <hr/>
+            </h3>
+            <div class="row justify-content-md-center" id="prototypes">
+                <div class="col">
+                    <h4>Desktop</h4>
+                    <img class="prototype" src="hifi-web.png" alt="hifi web site" style="height: 30rem;">
+                </div>
+                <div class="col">
+                    <h4>Tablet</h4>
+                    <img class="prototype" src="hifi-tablet.png" alt="hifi tablet site" style="height: 30rem;">
+                </div>
+                <div class="col">
+                    <h4>Phone</h4>
+                    <img class="prototype" src="hifi-phone.png" alt="hifi phone site" style="height: 30rem;">
+                </div>
+            </div>
+            <br>
+
+            <p class = "text-secondary"> (hover images to enlarge)</p>
+            <br>
+            <p style="text-align:center; margin-left:25%; margin-right:25%;">Using the lo-fi prototypes and the style guide, I made hi-fi prototypes of the sites on Figma. 
+                These are annotated with the different html and CSS elements to build out the prototypes.                 
+            </p>
+        </div>  
+        <br>
+        <br>
+        <br>
+        <div class = "d-flex flex-column justify-content-center align-items-center" id = "part 3">
+            <h2>Responsive Redesign</h2>
+            <p class = "text-secondary">Actually building the site (woohoo)!!</p>
+            <img  src="redesign.png" alt="redesigned site" style="height: 35rem;">
+            <br>
+            <p>I built out the hi-fi prototype into an actual website using html and css (plus some of my blood, sweat, and tears). You can check it out here :))</p>
+        </div>              
+    </body>
+</html>
