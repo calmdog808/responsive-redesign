@@ -20,4 +20,49 @@ img{
 }
 .prototype:hover{
     transform: scale(1.7) !important;
+    transition: 0.3s;
+
 }
+
+.back-to-top {
+    position: fixed;
+    opacity: 1;
+    left: 18px;
+    top: 18px;
+    z-index: 99999;
+    width: auto;
+    height: auto;
+    border-radius: 4px;
+    color: black;
+    visibility: visible !important;
+  
+  }
+  
+  #back {
+    transition: top 0.3s;
+  }
+  
+  .back-to-top i {
+    font-size: 13px;
+    color: black;
+    line-height: 0;
+  }
+  
+  .back-to-top i:hover {
+    text-decoration: underline;
+    color: black;
+    line-height: 0;
+  }
+  
+  .back-to-top:hover {
+    /* background: #6776f4; */
+    color: #fff;
+  
+  }
+  
+  .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+ 

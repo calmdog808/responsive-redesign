@@ -5,11 +5,17 @@
         <!-- import CSS styles -->
         <link rel="stylesheet" href="submission_style.css">
         <link rel="stylesheet" href="bootstrap.min.css">
+       
+        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
         <meta name="description" content="assignment write up">
     </head>
 
     <body>
         <!-- code adapted from jeff's bootstrap video -->
+        <a id = "back" href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-left"> back to portfolio</i></a>
+        
         <div class="d-flex flex-column justify-content-center align-items-center" id = "title">
             <h1 style="font-weight: bold;">Seven Stars Bakery Redesign</h1>
             <p class = "text-secondary">Redesigning the website of my favorite Providence bakery &lt;3 </p>
@@ -56,6 +62,8 @@
             <h3>Lo-Fi Prototypes
                 <hr/>
             </h3>
+
+
             <div class="row justify-content-md-center" id="prototypes">
                 <div class="col">
                     <h4>Desktop</h4>
@@ -139,6 +147,21 @@
             </p>
             <br>
             <br>
-        </div>              
+        </div>  
+        
+        
+        <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+              if (prevScrollpos > currentScrollPos) {
+                document.getElementById("back").style.top = "18px";
+              } else {
+                document.getElementById("back").style.top = "-50px";
+              }
+              prevScrollpos = currentScrollPos;
+            }
+            </script>
+            
     </body>
 </html>
